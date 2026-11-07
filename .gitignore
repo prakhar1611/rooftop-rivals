@@ -1,0 +1,42 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+local.properties
+**/export_credentials.cfg
+godot/config/google_sign_in.json
+godot/config/services.json
+google-services.json
+
+# Godot caches and generated Android project
+.godot/
+.godot-cache/
+godot/android/build/
+godot/android/.build_version
+
+# Downloaded dependencies, build products, verification logs
+build/
+deps/
+toolchain/
+verification/
+.gradle/
+*.aar
+*.jar
+*.class
+*.apk
+*.aab
+*.idsig
+*.log
+__pycache__/
+*.pyc
+
+# Local editors and OS files
+.idea/
+.vscode/
+.DS_Store

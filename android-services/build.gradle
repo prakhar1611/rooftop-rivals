@@ -1,0 +1,16 @@
+plugins { id 'com.android.library' version '8.9.2' }
+android {
+    namespace 'org.rooftoprivals.services'
+    compileSdk 36
+    defaultConfig { minSdk 24; targetSdk 36; consumerProguardFiles 'consumer-rules.pro' }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+repositories { google(); mavenCentral() }
+dependencies {
+    compileOnly 'org.godotengine:godot:4.6.3.stable'
+    implementation 'com.google.android.gms:play-services-ads:25.5.0'
+    implementation 'com.google.android.ump:user-messaging-platform:4.0.0'
+    implementation 'androidx.credentials:credentials:1.6.0'
+    implementation 'androidx.credentials:credentials-play-services-auth:1.6.0'
+    implementation 'com.google.android.libraries.identity.googleid:googleid:1.2.1'
+}

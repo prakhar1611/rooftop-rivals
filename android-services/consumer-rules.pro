@@ -1,0 +1,2 @@
+-keep class org.rooftoprivals.services.KiteGoogleServices { *; }
+-keepclassmembers class * { @org.godotengine.godot.plugin.UsedByGodot <methods>; }

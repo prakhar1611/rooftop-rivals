@@ -1,0 +1,11 @@
+{
+  "accounts_enabled": false,
+  "rewarded_ads_enabled": false,
+  "telemetry_enabled": false,
+  "provider": "unconfigured",
+  "oauth_public_client_id": "",
+  "rewarded_ad_unit_id": "",
+  "privacy_policy_url": "",
+  "account_deletion_url": "",
+  "note": "Deployment reference only. Not automatically loaded. Never put secrets, refresh tokens, or private keys in this file. Real providers and legal review are not included."
+}
